@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Product details</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/styles.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/login.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/products.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <section class="header">
+            <h3>Store Manager</h3>
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="salesrecords.html">Records</a></li>
+
+                </ul>
+            </nav>
+        </section>
+        <section class="login-page">
+            <section class="edit-product">
+                <img src="../img/guitarpedal.jpeg">
+                <form action="products.html" class="login-form">
+                    <h3 class="login-header">Edit product details</h3>
+                    <input type="text" placeholder="Product" class="login-input" value='Guitar pedal'><br>
+                    <input type="text" placeholder="Price" class="login-input" value='Shs.50,000'><br>
+                    <input type="text" placeholder="Quantity" class="login-input" value='10pieces'><br>
+                    <select class="category">
+                        <option>Category</option>
+                        <option>Keyboards</option>
+                        <option>Guitars</option>
+                        <option>Cables</option>
+                        <option>Microphones</option>
+                        <option>Mixers</option>
+                    </select>
+                    <input type="text" placeholder = 'Minimum Quantity Involved' class="login-input" value="5pieces"><br>
+                    
+                    <button class="add-product-button">Edit</button>
+                    <button class="danger-button">Delete</button>
+                </form>
+            </section>
+                
+        </section>
+    </div>
+</body>
+</html>

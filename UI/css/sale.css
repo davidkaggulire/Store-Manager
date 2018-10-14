@@ -1,13 +1,5 @@
 @import "../css/styles.css";
-
-.top-div{
-    background-image: url('../img/shop.jpeg');
-    background-size: cover;
-    height: 300px;
-    margin-bottom: 5px;
-    
-
-}
+@import "../css/records.css";
 
 .cart-button{
     text-decoration:none;
@@ -27,4 +19,28 @@
 .cart-button:hover{
     background-color:black;
     color:white;
+}
+
+@media (max-width: 1350px){
+    .cart-button{
+        width: 100%;
+        font-size: 16px;
+        padding: 4px 8px;
+    }
+}
+
+@media (max-width: 1050px){
+    .cart-button{
+        width: 100%;
+        font-size: 14px;
+        padding: 4px 8px;
+    }
+}
+
+@media (max-width: 700px){
+    .cart-button{
+        width: 90%;
+        font-size: 12px;
+        padding: 2px 4px;
+    }
 }

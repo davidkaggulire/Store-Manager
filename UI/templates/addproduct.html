@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Admin page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/styles.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/products.css" />
+    <script src="js/render.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <section class="header">
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="records.html">Records</a></li>
+                    <li><a href="salesrecords.html">Sales Details</a></li>
+                    <li><a href="create.html">Create Product</a></li>
+                    <li><a href="index.html">Logout</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="login-page">
+            <form action="products.html" class="login-form">
+                <h3 class="login-header">Add Product to Store</h3>
+                <input type="text" placeholder="Product" class="login-input"><br>
+                <input type="text" placeholder="Price" class="login-input"><br>
+                <input type="text" placeholder="Quantity" class="login-input"><br>
+                <select class="category">
+                        <option>Category</option>
+                        <option>Keyboards</option>
+                        <option>Guitars</option>
+                        <option>Cables</option>
+                        <option>Microphones</option>
+                        <option>Mixers</option>
+                    </select>
+                <input type="text" placeholder = 'Minimum Quantity Involved' class="login-input"><br>
+                
+                <button class="add-product-button2">Add product</button>
+            </form>
+            </section>
+    </div>
+</body>
+</html>

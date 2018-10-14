@@ -197,11 +197,11 @@
     }
 
     .add-product-button2{
-        width:50%;
+        width:80%;
     }
 
     .danger-button{
-        width:50%;
+        width:20%;
     }
 
 }
@@ -284,6 +284,13 @@
         background-color:#093374;
         font-family: 'Ubuntu', sans-serif;
     }
+    .add-product-button2{
+        width:50%;
+    }
+
+    .danger-button{
+        width:50%;
+    }
 }
 
 @media (max-width:500px){
@@ -363,6 +370,14 @@
         color: white;
         background-color:#093374;
         font-family: 'Ubuntu', sans-serif;
+    }
+
+    .add-product-button2{
+        width:50%;
+    }
+
+    .danger-button{
+        width:50%;
     }
     
 }

@@ -1,0 +1,67 @@
+@import "../css/styles.css";
+
+.nav-bar h3{
+    padding: 0.5em;
+    color:white;
+    font-size: 20px;
+}
+
+.login-page{
+    margin-top:-20px;
+    height: 100vh;
+    text-align:center;
+    background-image: url('../img/home.jpeg'), linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.login-form{
+    font-size: 16px;
+    padding: 12px 20px;
+    margin-top: 50px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: var(--grey);
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 5px;
+}
+
+.login-input{
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.login-input:hover{
+    border: 1px solid #093374;
+}
+
+.login-button{
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: white;
+    background-color:#093374;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.login-button:hover{
+    cursor: pointer;
+    background-color:black;
+}
+
+.login-radio{
+    color:blue;
+}

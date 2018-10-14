@@ -1,0 +1,91 @@
+:root{
+    --blue: #0E88B2;
+    --orange:#F08B3C;
+    --grey: #DCD9D7;
+    --dark: #333;
+    --darkblue:#093374;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    line-height: 1.4;
+    font-family: Ubuntu sans-serif;
+    background-color: white;
+    margin:0;
+}
+
+.wrapper{
+    /* margin:-15px; */
+    top:0px
+}
+
+.header{
+    margin-top:-20px;
+    padding-top:0px;
+    width:100%;
+    top:0;
+    left:0;
+    background-color: #093374;
+    color:white;
+    font-family: sans-serif;
+}
+
+.nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-bar li{
+    /* text-decoration-style: none; */
+    list-style-type: none;
+    padding-left: 26px;
+    margin:5px;
+}
+
+.nav-bar a{
+    text-decoration:none;
+    color: var(--darkblue);
+    font-size: 18px;
+    background-color: var(--grey);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 2px 4px;
+    margin: 4px 0 ;
+}
+
+.nav-bar a:hover{
+    background-color:black;
+    color:white;
+}
+
+.nav-bar h3{
+    padding: 0.5em;
+}
+
+.top-div{
+    background-image: url('../img/shop.jpeg');
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 5px;
+}
+
+@media (max-width:550px){
+    .nav-bar ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 500px){
+    .nav-bar ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

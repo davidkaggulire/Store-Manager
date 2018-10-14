@@ -1,8 +1,6 @@
 @import "../css/styles.css";
 
 .records-div{
-    /* grid-area: table; */
-    /* float:right; */
     border: 2px solid var(--grey);
     border-radius: 5px;
     text-align:center;
@@ -34,8 +32,6 @@ table.records-table caption {
 table.records-table th, table.records-table td {
 	padding: 12px;
     border-width: 1px;
-    /* border-style: solid; */
-    /* border-radius: 10px; */
     border-color:var(--orange);
 }
 
@@ -75,3 +71,55 @@ table.records-table tr:nth-child(odd){
     font-family: 'Ubuntu', sans-serif;
 }
 
+
+@media(max-width: 950px){
+    .records-div{
+        grid-area: table;
+        border: 2px solid var(--grey);
+        border-radius: 5px;
+        text-align:center;
+        width: 90%;
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin: 15px;
+    }
+
+    table.records-table{
+        border-collapse: collapse;
+        font-family:arial;
+        width:100%;
+        font-size: 15px;
+     }
+}
+
+
+@media (max-width:500px){
+    .records-div{
+        grid-area: table;
+        border: 2px solid var(--grey);
+        border-radius: 5px;
+        text-align:center;
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin: 5px;
+    }
+
+    .records-div h1{
+        font-size:15px;
+    }
+
+    table.records-table{
+        border-collapse: collapse;
+        font-family:arial;
+        width:100%;
+        font-size: 10px;
+    }
+
+     table.records-table th, table.records-table td {
+        padding: 3px;
+    }
+
+}

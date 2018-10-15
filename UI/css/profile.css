@@ -36,7 +36,6 @@
     margin: 35px;
 }
 
-
 table.records-table{
    border-collapse: collapse;
    font-family:arial;
@@ -137,11 +136,7 @@ table.records-table tr:nth-child(odd){
         width:100%;
         font-size: 15px;
      }
-
-
-
 }
-
 
 @media (max-width:500px){
 
@@ -184,5 +179,4 @@ table.records-table tr:nth-child(odd){
      table.records-table th, table.records-table td {
         padding: 3px;
     }
-
 }

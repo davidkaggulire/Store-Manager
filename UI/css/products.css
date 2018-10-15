@@ -2,11 +2,9 @@
 @import "../css/login.css";
 
 .grid-div{
-
     display:flex;
     flex-direction: column;
     justify-content: center;
-    
 }
 
 .top-search-div{
@@ -203,7 +201,6 @@
     .danger-button{
         width:20%;
     }
-
 }
 
 @media(max-width: 850px){
@@ -376,5 +373,4 @@
     .danger-button{
         width:50%;
     }
-    
 }

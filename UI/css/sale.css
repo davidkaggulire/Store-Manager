@@ -21,6 +21,7 @@
     color:white;
 }
 
+/* media queries */
 @media (max-width: 1350px){
     .cart-button{
         width: 100%;

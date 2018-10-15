@@ -19,7 +19,6 @@ body{
 }
 
 .wrapper{
-    /* margin:-15px; */
     top:0px
 }
 
@@ -41,7 +40,6 @@ body{
 }
 
 .nav-bar li{
-    /* text-decoration-style: none; */
     list-style-type: none;
     padding-left: 26px;
     margin:5px;

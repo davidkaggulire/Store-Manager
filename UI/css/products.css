@@ -76,7 +76,6 @@
     display: inline-block;
     border: 1px solid #093374;
     border-radius: 2px;
-    box-sizing: border-box;
     color: white;
     background-color:#093374;
     font-family: 'Ubuntu', sans-serif;
@@ -86,6 +85,8 @@
     background-color:black;
 }
 
+
+
 .product{
     border:1px solid orange;
     border-radius: 5px;
@@ -93,12 +94,13 @@
     text-align: center;
     font-weight: bold;
     padding:0.3em;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'KD', sans-serif;
 }
 
 .product p{
     padding:0.01em;
+    /* color */
 }
 
 .product:hover{
@@ -114,6 +116,22 @@
     font-family: sans-serif;
     text-align: center;
     font-size: 20px;
+}
+
+.product-button{
+    text-align:center;
+    font-size: 14px;
+    text-decoration:none;
+    background-color:var(--darkblue);
+    color:white;
+    padding: 8px 4px;
+    border: 1px solid var(--darkblue);
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.product-button:hover{
+    background-color:black;
 }
 
 .category{

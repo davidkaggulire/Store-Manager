@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="../css/styles.css" />
     <link rel='stylesheet' type='text/css' href='../css/login.css' />
+    <script src="js/api_connector.js">
 </head>
 <body>
     <div class="wrapper">
@@ -18,9 +19,9 @@
         <section class="login-page">
             <form action="products.html" class="login-form">
                 <h3 class="login-header">LOGIN</h3>
-                <input type="text" placeholder="Username" class="login-input"><br>
-                <input type="password" placeholder = 'Password' class="login-input"><br>                
-                <button type="submit" class="login-button">Login</button>
+                <input type="text" placeholder="Username" class="login-input" id="username"><br>
+                <input type="password" placeholder = 'Password' class="login-input" id="password"><br>
+                <button type="submit" onclick="loginUser()" class="login-button">Login</button>
             </form>
         </section>
     </div>

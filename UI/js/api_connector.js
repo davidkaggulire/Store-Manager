@@ -8,8 +8,7 @@ const postData = {
 }
 
 function loginUser(){
-  return fetch(url)
-    {
+  return fetch(url, {
       method: "POST",
       mode: "cors",
       cache: "no-cache",
@@ -24,4 +23,4 @@ function loginUser(){
     .catch(function(error){
       console.log(error);
     })
-}
+});

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Register Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/styles.css" />
+    <link rel='stylesheet' type='text/css' href='../css/login.css' />
+    <script type="text/javascript" src="../js/api_admin.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <section class="header">
+            <nav class="nav-bar">
+                <h3>Store Manager</h3>
+                <ul>
+                    <li><a href="products.html">View Products</a></li>
+                    <li><a href="index.html">Logout</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="login-page">
+            <form action="products.html" class="login-form">
+                <h3 class="login-header">Register User</h3>
+                <input type="text" placeholder="Firstname" class="login-input" id="firstname"><br>
+                <input type="text" placeholder="Lastname" class="login-input" id="lastname"><br>
+                <input type="text" placeholder="Username" class="login-input" id="username"><br>
+                <input type="password" placeholder = 'Password' class="login-input"  id="password"><br>
+                <button type="button" class="login-button" onclick="registerUser()">Register User</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>

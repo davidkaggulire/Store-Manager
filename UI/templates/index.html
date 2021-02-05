@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Index -Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/styles.css" />
+    <link rel='stylesheet' type='text/css' href='../css/login.css' />
+    <script type="text/javascript" src="../js/api_connector.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <section class="header">
+            <nav class="nav-bar">
+                <h3 id="login-head">Store Manager</h3>
+            </nav>
+        </section>
+        <section class="login-page">
+            <form class="login-form">
+                <h3 class="login-header" id="login-header">LOGIN</h3>
+                <input type="text" placeholder="Username" class="login-input" id="username" required="true"><br>
+                <input type="password" placeholder = 'Password' class="login-input" id="password" required="true"><br>
+                <button type="button" onclick="loginUser()" class="login-button">Login</button>
+                <p>Not registered <a href="register.html">Register with admin</a></p>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
